@@ -23,5 +23,4 @@ double c1 = Math.Pow((x2 - x1),2);
 double c2 = Math.Pow((y2 - y1),2);
 double c3 = Math.Pow((z2 - z2),2);
 double c = Math.Sqrt(c1 + c2 + c3);
-c = Math.Round(c);
 Console.WriteLine($"Расстояние от точки А до точки В состовляет {c}");
